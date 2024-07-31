@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="header-logo">
+        <img src="assets/img/LogoAlura.png" alt="Logo Alura" class="header-logo">
+    </div>
+    <div class="container">
+        <div class="left-panel">
+            <textarea placeholder="Ingrese el texto aquí" id="input-text"></textarea>
+            <div class="info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill icono" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
+                </svg>
+                Solo letras minúsculas y sin acentos
+            </div>
+            <div class="buttons">
+                <button id="encrypt-btn">Encriptar</button>
+                <button id="decrypt-btn">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-panel">
+            <img src="assets/img/Muñeco.png" alt="Muñeco" class="image">
+            <p id="output-text">Ningún mensaje fue encontrado</p>
+            <p id="input-description">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="copy-btn">Copiar</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
