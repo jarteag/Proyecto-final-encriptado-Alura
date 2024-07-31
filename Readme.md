@@ -45,4 +45,7 @@ Las llaves de encriptación solicitadas son las siguientes:
 * **La letra "o" es convertida a "ober".**
 * **La letra "u" es convertida a "ufat".**
 
+Para probar el encriptador se indico un mensaje secreto para efectos de ver su real funcionamiento
+
+[![Captura-de-pantalla-2024-07-31-164800.png](https://i.postimg.cc/fL1m7Xk5/Captura-de-pantalla-2024-07-31-164800.png)](https://postimg.cc/0MdzPzYJ)
 
